@@ -1,0 +1,33 @@
+.navbar .navbar__logo {
+  display: flex;
+  padding: 0.5rem;
+}
+.navbar .navbar__title {
+  color: white;
+}
+.main {
+  padding: 3rem;
+}
+.main .main__logo {
+  margin: auto;
+  width: 40%;
+  display: block;
+}
+.main__content {
+  margin-top: 20px;
+}
+.result {
+  margin-top: 30px;
+  display: none;
+}
+.result .result__body p {
+  margin: 1em 0;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.result .result__body p:last-child {
+  border-bottom: none;
+}
+.result .result__body .result__list p {
+  padding-left: 1em;
+}

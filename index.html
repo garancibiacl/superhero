@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Gustavo Arancibia">
+  <title>SuperHero</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="navbar__logo">
+        <img src="img/sh2.jpg" alt="SuperHero" width="60" />
+        <h2 class="navbar-text ms-2 navbar__title">SuperHero</h2>
+      </div>
+    </div>
+  </nav>
+  <section class="main">
+    <div class="container">
+      <img src="img/sh1.jpg" alt="SuperHero" class="main__logo" width="300">
+      <div class="main__content">
+        <div class="col-lg-6 m-auto">
+          <h2>Encuentra tu SuperHero</h2>
+          <form action="#">
+            <label for="search" class="form-label">Ingresa el número del SuperHero a buscar</label>
+            <input type="text" class="form-control" name="search" id="search" />
+            <input type="submit" id="search-btn" class="btn btn-primary mt-3" value="Buscar">
+          </form>
+        </div>
+      </div>
+    </div>
+    <section>
+      <section class="result">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              </i>
+              <h3 class="text-lg-center mb-5 text-success"><i class="bi bi-check2-circle"></i> SuperHero Encontrado</h3>
+            </div>
+            <div class="col-lg-6">
+              <div class="card p-2 result__card mb-4">
+                <div class="row g-0">
+                  <div class="col-lg-4">
+                    <img src="img/sh2.jpg" class="img-fluid" alt="" id="avatar">
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body result__body">
+                      <h5 class="card-title">Nombre: <span id="name">SuperHero</span></h5>
+                      <div class="result__intro">
+                        <p>Conexiones: <span id="connection"></span></p>
+                      </div>
+                      <div class="result__list">
+                        <p>Publicado por: <span id="published"></span></p>
+                        <p>Ocupación: <span id="ocupation"></span></p>
+                        <p>Primera aparición en: <span id="firstin"></span></p>
+                        <p>Altura: <span id="height"></span></p>
+                        <p>Peso: <span id="weight"></span></p>
+                        <p>Alianzas: <span id="allies"></span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div id="chart"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="js/jquery.js"></script>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      <script src="js/index.js"></script>
+</body>
+
+</html>
