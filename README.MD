@@ -11,3 +11,5 @@ Se crea una aplicación dinámica que permita a los usuarios buscar un superhér
 <li> Manipula elementos del DOM mediante jQuery.</li>
 <li> Emplea elementos de plugins elaborados con jQuery.</li>
 </ul>
+
+Ver app https://garancibiacl.github.io/superhero/
