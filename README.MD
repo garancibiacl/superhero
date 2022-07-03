@@ -1,8 +1,8 @@
 # Super Hero
 Se crea una aplicación dinámica que permita a los usuarios buscar un superhéroe y visualizar información referente al personaje buscado, utilizando peticiones asíncronas a APIs utilizando la librería jQuery y AJAX | 
 
+<ul><strong>Habilidades:</strong>
 <br>
-<ul>Habilidades:
 
 <li> Estructura la página web con HTML.</li>
 <li> Implementa estructuras condicionales y repetitivas de JavaScript.</li>
