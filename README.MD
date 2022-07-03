@@ -1,0 +1,2 @@
+# Super Hero
+Se crea una aplicación dinámica que permita a los usuarios buscar un superhéroe y visualizar información referente al personaje buscado, utilizando peticiones asíncronas a APIs utilizando la librería jQuery y AJAX.
