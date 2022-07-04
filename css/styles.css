@@ -16,7 +16,10 @@ h5{
   font-family: 'Bebas Neue', cursive;
 }
 
+.navbar{
+  background-color: #3596B5;
 
+}
 .navbar .navbar__logo {
   display: flex;
   padding: 0.5rem;
