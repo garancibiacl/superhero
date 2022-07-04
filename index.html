@@ -21,8 +21,8 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <div class="navbar__logo">
-        <img src="img/sh2.jpg" alt="SuperHero" width="60" />
-        <h2 class="navbar-text ms-2 navbar__title">SuperHero</h2>
+        <!-- <img src="img/sh2.jpg" alt="SuperHero" width="60" /> -->
+        <h2 class="navbar-text ms-2 navbar__title">API Super Hero</h2>
       </div>
     </div>
   </nav>
@@ -31,11 +31,15 @@
       <img src="img/super-hero.png" alt="SuperHero" class="main__logo" width="300">
       <div class="main__content ">
         <div class="col-lg-6 m-auto">
-          <h2>Encuentra tu SuperHero</h2>
+        
+          <h2>  <i class="bi bi-search"></i>  Encuentra tu Super Hero</h2>
           <form action="#">
             <label for="search" class="form-label"><h6>Ingresa el número del SuperHero a buscar</h6></label>
             <input type="text" class="form-control" name="search" id="search" />
-            <input type="submit" id="search-btn" class="btn mt-3 btn-info btn-lg" value="Buscar">
+            <div class="col-12 d-flex justify-content-end">
+              <input type="submit" id="search-btn" class="btn mt-3 btn-info btn-lg rounded-pill" value="Buscar">
+            </div>
+      
           </form>
         </div>
       </div>
