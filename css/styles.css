@@ -1,3 +1,20 @@
+
+body{
+background-color: #002334;
+}
+h2{
+  color: #4bc8e1;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+h5, h6{
+  color: white;
+}
+p{
+  color: #4bc8e1;
+
+}
+
 .navbar .navbar__logo {
   display: flex;
   padding: 0.5rem;
@@ -6,7 +23,7 @@
   color: white;
 }
 .main {
-  padding: 3rem;
+  padding: 2rem;
 }
 .main .main__logo {
   margin: auto;
@@ -19,15 +36,21 @@
 .result {
   margin-top: 30px;
   display: none;
+  background-color: #002334 !important;
 }
 .result .result__body p {
   margin: 1em 0;
   padding-bottom: 0.3em;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #fff;
 }
 .result .result__body p:last-child {
   border-bottom: none;
 }
-.result .result__body .result__list p {
-  padding-left: 1em;
+.bg-color{
+  background-color: #002334;
+ 
 }
+.card{
+  border: 1px solid #4bc8e1;
+}
+
